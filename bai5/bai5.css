@@ -1,0 +1,89 @@
+@font-face{
+    font-family: "UTM wedding";
+    src: url(./DeBai5/fonts/UTM\ Wedding\ K&T.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.flower-shop{
+    background-image: url(./DeBai5/hinh/binh-hoa.jpg), url(./DeBai5/hinh/nen-hoa-hong.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 40px 130px, right bottom;
+    background-size: 380px 320px, 790px 485px;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+}
+
+.flower-shop__title{
+   font-family: "UTM wedding";
+   color: white;
+   text-shadow:
+       0 0 5px hotpink,
+       0 0 10px hotpink,
+       0 0 20px hotpink,
+       0 0 20px hotpink;
+   font-size: 50px;
+   margin-bottom: 20px;
+}
+
+.flower-shop__content{
+    display: flex;
+    flex-direction: column;
+    margin-left: -5px;
+}
+
+.flower-shop__info{
+    margin: 0;
+}
+
+.flower-shop__heading{
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.flower-shop__heading span{
+    font-weight: bold;
+    color: white;
+    background-color: deeppink;
+}
+
+.flower-shop__list{
+    margin-top: 0;
+    margin-bottom: 7px;
+}
+
+.flower-shop__list--flower{
+    list-style-image: url('./DeBai5/hinh/bullet-hoa-tim.png');
+}
+
+.flower-shop__list--dot{
+    list-style-image: url('./DeBai5/hinh/bullet-tron-hong.png');
+}
+
+.flower-shop__list--dot li:first-child span{
+    font-weight: bold;
+}
+
+.flower-shop__divider{
+    border: none;
+    border-top: 2px solid #999;
+    width: 110%;
+    margin: 0;
+}
+
+.flower-shop__copyright{
+    color: #873bb1;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.flower-shop__copyright span{
+    color: deeppink;
+}
