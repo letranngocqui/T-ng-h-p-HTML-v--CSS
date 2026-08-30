@@ -1,3 +1,7 @@
+html{
+    background-color: #ffffff;
+}
+
 @font-face{
     font-family: "UTM wedding";
     src: url(./DeBai5/fonts/UTM\ Wedding\ K&T.ttf) format(truetype);
@@ -8,7 +12,7 @@
 .flower-shop{
     background-image: url(./DeBai5/hinh/binh-hoa.jpg), url(./DeBai5/hinh/nen-hoa-hong.jpg);
     background-repeat: no-repeat, no-repeat;
-    background-position: 40px 130px, right bottom;
+    background-position: 40px 130px, right 100px;
     background-size: 380px 320px, 790px 485px;
     min-height: 100vh;
 
@@ -18,6 +22,9 @@
 
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.2;
+
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .flower-shop__title{
