@@ -1,8 +1,4 @@
 .login{
-    background-image: url('./DeBai11/hinh/login.jpg');
-    background-position: 680px;
-    background-size: 230px  230px;
-    background-repeat: no-repeat;
     min-height: 100vh;
 
     display: flex;
@@ -15,6 +11,11 @@
 }
 
 .login__form{
+    background-image: url('./DeBai11/hinh/login.jpg');
+    background-position: 330px;
+    background-size: 230px  230px;
+    background-repeat: no-repeat;
+
     min-width: 550px;
     min-height: 270px;
     display: flex;
